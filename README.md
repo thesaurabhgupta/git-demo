@@ -1,2 +1,2 @@
 # git-demo
-git learning udaymy
+git learning udemy
