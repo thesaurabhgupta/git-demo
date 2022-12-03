@@ -1,0 +1,29 @@
+##
+
+$ git init <repo name>   ## this will create folder with git initalize
+
+###########################
+
+$ git init demo-one
+$ cd demo-one
+$ git remote add origin https://github.com/thesaurabhgupta/demo-one.git
+$ git branch -M main  # this make default branch to "main"
+
+##############
+
+$ git init -b main2 demo-one # make default to main2 branch
+$ cd demo-one
+$ git remote add origin https://github.com/thesaurabhgupta/demo-one.git
+
+##########################
+
+
+## configuration
+
+git config --global user.name "Saurabh Gupta"
+git config --global user.email "mail@thesaurabhgupta.in"
+
+git config --global --list 	## check configurarion
+git config --global init.defaultBranch main
+
+# change default branch name
